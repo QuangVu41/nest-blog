@@ -1,0 +1,17 @@
+POST http://localhost:3000/posts
+Content-Type: application/json
+{
+  "title": "NextJS TypeScript",
+  "postType": "post",
+  "slug": "nextjs-typescript",
+  "status": "draft",
+  "content": "Test content",
+  "schema": "{\r\n    \"@context\": \"https:\/\/schema.org\",\r\n    \"@type\": \"Person\"\r\n  }",
+  "featuredImageUrl": "http://localhost.com/images/image1.jpg",
+  // "publishOn": "2025-03-12T16:04:31Z",
+  // "tags": ["nestjs", "typescript"],
+  "metaOptions": {
+    "metaValue": "{ \"sidebarEnabled\": true, \"footerActive\": false }"
+  },
+  "tags": [1, 2]
+}

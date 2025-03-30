@@ -1,0 +1,8 @@
+PATCH http://localhost:3000/posts
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjEzLCJlbWFpbCI6InRydW9uZ3F1YW5ndnUxNDNAZ21haWwuY29tIiwiaWF0IjoxNzQxNzk0MzI5LCJleHAiOjE3NDE3OTc5MjksImF1ZCI6ImxvY2FsaG9zdDozMDAwIiwiaXNzIjoibG9jYWxob3N0OjMwMDAifQ.ilgpZVfkHbBjsT3Giq0x5oay34uOzhLmMVKLzk3ycNM
+{
+  "id": 9,
+  "postType": "post",
+  "tags": [1, 3]
+}

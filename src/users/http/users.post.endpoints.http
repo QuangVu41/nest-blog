@@ -1,0 +1,23 @@
+POST http://localhost:3000/users
+Content-Type: application/json
+{
+  "firstName": "Vu",
+  "lastName": "Quang",
+  "email": "quangvu14@gmail.com",
+  "password": "v1234567#"
+}
+
+POST http://localhost:3000/users/create-many
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjEzLCJlbWFpbCI6InRydW9uZ3F1YW5ndnUxNDNAZ21haWwuY29tIiwiaWF0IjoxNzQxNjkwNzA5LCJleHAiOjE3NDE2OTQzMDksImF1ZCI6ImxvY2FsaG9zdDozMDAwIiwiaXNzIjoibG9jYWxob3N0OjMwMDAifQ.wUQa0aYA8eSK1fxqJWPJloYNxO4_0e6zE-kO2ypiXHs
+{
+  "users": 
+    [
+      {
+        "firstName": "Truong",
+        "lastName": "Quang",
+        "email": "vuquang@gmail.com",
+        "password": "v1234567#"
+      }
+    ]
+}
