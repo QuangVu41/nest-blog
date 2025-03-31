@@ -8,5 +8,5 @@ export default new DataSource({
   password: '1234567',
   database: 'nestjs-blog',
   entities: ['**/*.entity.js'],
-  migrations: ['migrations/*.js'],
+  migrations: ['**/migrations/*.js'],
 });
