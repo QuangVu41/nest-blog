@@ -49,25 +49,25 @@ export class UsersService {
   // /**
   //  * The method to get all the users from the database
   //  */
-  // public findAll(
-  //   getUsersParamDto: GetUsersParamDto,
-  //   limit: number,
-  //   page: number,
-  // ) {
-  //   throw new HttpException(
-  //     {
-  //       status: HttpStatus.MOVED_PERMANENTLY,
-  //       error: 'The Api endpoint does not exist',
-  //       fileName: 'users.service.ts',
-  //       lineNumber: 87,
-  //     },
-  //     HttpStatus.MOVED_PERMANENTLY,
-  //     {
-  //       cause: new Error(),
-  //       description: 'Api endpoint was permanently moved',
-  //     },
-  //   );
-  // }
+  public findAll(
+    getUsersParamDto: GetUsersParamDto,
+    limit: number,
+    page: number,
+  ) {
+    throw new HttpException(
+      {
+        status: HttpStatus.MOVED_PERMANENTLY,
+        error: 'The Api endpoint does not exist',
+        fileName: 'users.service.ts',
+        lineNumber: 87,
+      },
+      HttpStatus.MOVED_PERMANENTLY,
+      {
+        cause: new Error(),
+        description: 'Api endpoint was permanently moved',
+      },
+    );
+  }
 
   /**
    * Find a single user using the ID of the user
